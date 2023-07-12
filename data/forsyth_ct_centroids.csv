@@ -9,7 +9,7 @@
 "37067000900","Census Tract 9, Forsyth County, North Carolina",-80.248957764934,36.0842793474936,"715 S Green St, Winston-Salem, NC 27101, USA",-80.2490992,36.0842435
 "37067000400","Census Tract 4, Forsyth County, North Carolina",-80.2418041819195,36.1201572629984,"2359 N Patterson Ave, Winston-Salem, NC 27105, USA",-80.241721,36.1201033
 "37067003310","Census Tract 33.10, Forsyth County, North Carolina",-80.1504696772264,36.0767814274544,"325 Canary Trail, Winston-Salem, NC 27107, USA",-80.1501196,36.0768629
-"37067002502","Census Tract 25.02, Forsyth County, North Carolina",-80.2990959577741,36.0994075688793,"3PX2+Q9 Winston-Salem, NC, USA",-80.244216,36.0998596
+"37067002502","Census Tract 25.02, Forsyth County, North Carolina",-80.2990959577741,36.0994075688793,"3101 Country Club Rd, Winston-Salem, NC 27104",-80.3011537,36.1009846
 "37067000302","Census Tract 3.02, Forsyth County, North Carolina",-80.2564458433407,36.119365126513,"612 W Twenty-Third St, Winston-Salem, NC 27105, USA",-80.2564821,36.1193119
 "37067001300","Census Tract 13, Forsyth County, North Carolina",-80.2761537374953,36.1296331623091,"2121 Royall Dr, Winston-Salem, NC 27106, USA",-80.2761884,36.1295197
 "37067002100","Census Tract 21, Forsyth County, North Carolina",-80.2851133916233,36.0745087698933,"1218 Magnolia St, Winston-Salem, NC 27103, USA",-80.284984,36.0745524
@@ -20,9 +20,9 @@
 "37067003904","Census Tract 39.04, Forsyth County, North Carolina",-80.3548832937724,36.0695908920724,"5317 Villas Ct, Winston-Salem, NC 27103, USA",-80.3551419,36.0691813
 "37067003003","Census Tract 30.03, Forsyth County, North Carolina",-80.15249214305,36.1333339505484,"659 Walkertown Guthrie Rd, Winston-Salem, NC 27101, USA",-80.1526447,36.1331274
 "37067003309","Census Tract 33.09, Forsyth County, North Carolina",-80.1793911344013,36.0922610199496,"654 Stewart Rd SE, Winston-Salem, NC 27107, USA",-80.1783194,36.0923856
-"37067003311","Census Tract 33.11, Forsyth County, North Carolina",-80.1289305060429,36.0608680268867,"3V6C+8C Winston-Salem, NC, USA",-80.244216,36.0998596
-"37067002807","Census Tract 28.07, Forsyth County, North Carolina",-80.2711821562245,36.2335358932082,"6PMH+CG Rural Hall, NC, USA",-80.2933838,36.2404158
-"37067002801","Census Tract 28.01, Forsyth County, North Carolina",-80.3940467051773,36.2261661409985,"6JG4+F9 Tobaccoville, NC, USA",-80.3714421,36.2381942
+"37067003311","Census Tract 33.11, Forsyth County, North Carolina",-80.1289305060429,36.0608680268867,"4991 Millennium Dr, Winston-Salem, NC 27107, USA",-80.1304713,36.0596108
+"37067002807","Census Tract 28.07, Forsyth County, North Carolina",-80.2711821562245,36.2335358932082,"7845 Creedmoor Dr, Rural Hall, NC 27045, USA",-80.271438,36.231871
+"37067002801","Census Tract 28.01, Forsyth County, North Carolina",-80.3940467051773,36.2261661409985,"7970 Ridge Rd, Tobaccoville, NC 27050, USA",-80.3944169,36.2285754
 "37067004103","Census Tract 41.03, Forsyth County, North Carolina",-80.3726582541108,36.1343690442072,"2325 Olivet Church Rd, Winston-Salem, NC 27106, USA",-80.3734116,36.1343862
 "37067001500","Census Tract 15, Forsyth County, North Carolina",-80.2398047951706,36.1517654876507,"4291 Idlewild Industrial Dr, Winston-Salem, NC 27105, USA",-80.239709,36.151615
 "37067004012","Census Tract 40.12, Forsyth County, North Carolina",-80.3855460850754,36.0588077821337,"6749 Knob Hill Dr, Clemmons, NC 27012, USA",-80.3856327,36.0586808
@@ -32,12 +32,12 @@
 "37067003500","Census Tract 35, Forsyth County, North Carolina",-80.2089492926276,36.0340770168533,"3448 Teague Mill Ln, Winston-Salem, NC 27107, USA",-80.2095822,36.0340478
 "37067003600","Census Tract 36, Forsyth County, North Carolina",-80.2438288815195,36.0188069498866,"4630 S Main St, Winston-Salem, NC 27127, USA",-80.2422913,36.0194216
 "37067000700","Census Tract 7, Forsyth County, North Carolina",-80.2301814715679,36.0994761191938,"316 N Laura Wall Blvd, Winston-Salem, NC 27101, USA",-80.2304034,36.0993728
-"37067000801","Census Tract 8.01, Forsyth County, North Carolina",-80.227595541,36.0869383310196,"3QPC+QX Winston-Salem, NC, USA",-80.244216,36.0998596
-"37067001700","Census Tract 17, Forsyth County, North Carolina",-80.1997125372849,36.1145653268096,"4R72+R4 Winston-Salem, NC, USA",-80.244216,36.0998596
+"37067000801","Census Tract 8.01, Forsyth County, North Carolina",-80.227595541,36.0869383310196,"601 S Martin Luther King Jr Dr, Winston-Salem, NC 27110, USA",-80.2281666,36.0891542
+"37067001700","Census Tract 17, Forsyth County, North Carolina",-80.1997125372849,36.1145653268096,"3 Winston Park Dr, Winston-Salem, NC 27101, USA",-80.1970305,36.1149614
 "37067003108","Census Tract 31.08, Forsyth County, North Carolina",-80.0523205772711,36.1503622041101,"2370 Bethel Church Rd, Kernersville, NC 27284, USA",-80.0510779,36.1507239
 "37067003004","Census Tract 30.04, Forsyth County, North Carolina",-80.1284559775929,36.119078291745,"5533 Long Walk Dr, Kernersville, NC 27284, USA",-80.128272,36.118774
 "37067003403","Census Tract 34.03, Forsyth County, North Carolina",-80.1823940272668,36.0562557878697,"2968 Golden Oaks Dr, Winston-Salem, NC 27107, USA",-80.183262,36.0561269
-"37067004010","Census Tract 40.10, Forsyth County, North Carolina",-80.3799253998327,36.109010349975,"1817 Chanterelle Ct, Winston-Salem, NC 27106, USA",-80.3324514,36.1426113
+"37067004010","Census Tract 40.10, Forsyth County, North Carolina",-80.3799253998327,36.109010349975,"1169 Maple Chase Ln, Lewisville, NC 27023, USA",-80.3813508,36.1085649
 "37067004011","Census Tract 40.11, Forsyth County, North Carolina",-80.3928641521216,36.088375805058,"935 Ridge Gate Dr, Lewisville, NC 27023, USA",-80.392808,36.0884219
 "37067002704","Census Tract 27.04, Forsyth County, North Carolina",-80.2763848047728,36.1480901303765,"1911 Waycross Dr, Winston-Salem, NC 27106, USA",-80.2760142,36.1477079
 "37067002901","Census Tract 29.01, Forsyth County, North Carolina",-80.2289969363965,36.2143357094522,"2588 Shiloh Church Rd, Winston-Salem, NC 27105, USA",-80.2294737,36.213913
@@ -64,28 +64,28 @@
 "37067002808","Census Tract 28.08, Forsyth County, North Carolina",-80.3193053906822,36.238795511735,"1575 Tobaccoville Rd, Rural Hall, NC 27045, USA",-80.3193739,36.2374878
 "37067003105","Census Tract 31.05, Forsyth County, North Carolina",-80.1404887778713,36.1934900424183,"120 Hassella Ct, Walkertown, NC 27051, USA",-80.141208,36.193935
 "37067004014","Census Tract 40.14, Forsyth County, North Carolina",-80.3720766799473,36.0261629277906,"4340 Kinnamon Rd, Winston-Salem, NC 27103, USA",-80.372527,36.025958
-"37067003313","Census Tract 33.13, Forsyth County, North Carolina",-80.0681465357428,36.0279636691542,"2WHJ+5P High Point, NC, USA",-80.0053176,35.9556923
-"37067003106","Census Tract 31.06, Forsyth County, North Carolina",-80.0991504656897,36.2317198626778,"6WJ2+M8 Belews Creek, NC, USA",-80.0673162,36.2428202
+"37067003313","Census Tract 33.13, Forsyth County, North Carolina",-80.0681465357428,36.0279636691542,"2868 NC-66, Kernersville, NC 27284, USA",-80.060062,36.024172
+"37067003106","Census Tract 31.06, Forsyth County, North Carolina",-80.0991504656897,36.2317198626778,"7795 Preston Rd, Belews Creek, NC 27009, USA",-80.0962015,36.2312979
 "37067003315","Census Tract 33.15, Forsyth County, North Carolina",-80.0664158587057,36.0965985115401,"1202 S Sixty Six Hwy, Kernersville, NC 27284, USA",-80.0628945,36.0976145
 "37067003703","Census Tract 37.03, Forsyth County, North Carolina",-80.2810102008427,36.0121883497597,"1948 Waccamaw Path, Winston-Salem, NC 27127, USA",-80.2810218,36.0121053
 "37067003906","Census Tract 39.06, Forsyth County, North Carolina",-80.3233719010006,36.1007873712706,"3789 Kirklees Rd, Winston-Salem, NC 27104, USA",-80.3232038,36.1007979
 "37067002606","Census Tract 26.06, Forsyth County, North Carolina",-80.3122936384584,36.137738874959,"115 Powers Rd, Winston-Salem, NC 27106, USA",-80.3125406,36.137778
-"37067004007","Census Tract 40.07, Forsyth County, North Carolina",-80.4540325261438,36.0678267650665,"3G9W+49 Lewisville, NC, USA",-79.8369379,35.6854068
+"37067004007","Census Tract 40.07, Forsyth County, North Carolina",-80.4540325261438,36.0678267650665,"1625 Appian Way, Clemmons, NC 27012, USA",-80.4523406,36.0671302
 "37067002804","Census Tract 28.04, Forsyth County, North Carolina",-80.3120831570488,36.184435707732,"5135 Ramillie Run, Winston-Salem, NC 27106, USA",-80.3126276,36.1844788
-"37067002809","Census Tract 28.09, Forsyth County, North Carolina",-80.3390502944672,36.2201900537997,"6MC6+39 Tobaccoville, NC, USA",-80.3714421,36.2381942
+"37067002809","Census Tract 28.09, Forsyth County, North Carolina",-80.3390502944672,36.2201900537997,"2150 Shore Rd, Rural Hall, NC 27045, USA",-80.3371075,36.2215227
 "37067001902","Census Tract 19.02, Forsyth County, North Carolina",-80.2463401256955,36.071051137209,"423 W Acadia Ave, Winston-Salem, NC 27127, USA",-80.2465659,36.0712862
 "37067003314","Census Tract 33.14, Forsyth County, North Carolina",-80.0549248611122,36.0673068808095,"828 South Bunker Hill Road, Colfax, NC 27235, USA",-80.0385145,36.0842871
 "37067003805","Census Tract 38.05, Forsyth County, North Carolina",-80.3226811700251,36.0643188804769,"2826 Carrollwood Dr, Winston-Salem, NC 27103, USA",-80.3228627,36.0643982
 "37067004015","Census Tract 40.15, Forsyth County, North Carolina",-80.3685798458764,35.9975512059183,"6264 Frye Bridge Rd, Clemmons, NC 27012, USA",-80.3688663,35.9964646
-"37067003307","Census Tract 33.07, Forsyth County, North Carolina",-80.1017678631434,36.1026294517295,"4V3X+37 Kernersville, NC, USA",-80.0736533,36.1198588
+"37067003307","Census Tract 33.07, Forsyth County, North Carolina",-80.1017678631434,36.1026294517295,"731 Madison Pl Cir, Kernersville, NC 27284, USA",-80.0998581,36.1028295
 "37067003201","Census Tract 32.01, Forsyth County, North Carolina",-80.0940598508139,36.1251205234287,"425 Dogwood Trail, Kernersville, NC 27284, USA",-80.0933214,36.124921
 "37067002002","Census Tract 20.02, Forsyth County, North Carolina",-80.2517994196745,36.0542783564287,"3041 Fleet St, Winston-Salem, NC 27127, USA",-80.2517127,36.0542908
-"37067003312","Census Tract 33.12, Forsyth County, North Carolina",-80.0884685216612,36.0592524092487,"3W56+PJ Kernersville, NC, USA",-80.0873182,36.1123191
+"37067003312","Census Tract 33.12, Forsyth County, North Carolina",-80.0884685216612,36.0592524092487,"1847 Ridge Creek Dr, Kernersville, NC 27284, USA",-80.090834,36.0608447
 "37067003103","Census Tract 31.03, Forsyth County, North Carolina",-80.07652147641,36.1836731700397,"3755 Sheppard Hill Rd, Kernersville, NC 27284, USA",-80.0766063,36.1841543
 "37067003908","Census Tract 39.08, Forsyth County, North Carolina",-80.3364022350359,36.1127271566588,"4374 Highland Lk Dr, Winston-Salem, NC 27106, USA",-80.3365167,36.1129093
 "37067001400","Census Tract 14, Forsyth County, North Carolina",-80.2552584479113,36.142211164979,"190 Polo Rd, Winston-Salem, NC 27105, USA",-80.2568627,36.1415182
 "37067002001","Census Tract 20.01, Forsyth County, North Carolina",-80.2352635447639,36.0563935657237,"3016 Lomond St, Winston-Salem, NC 27127, USA",-80.2352028,36.056601
-"37067002904","Census Tract 29.04, Forsyth County, North Carolina",-80.1824101452137,36.2168849920979,"6R89+Q2 Walkertown, NC, USA",-80.1531009,36.1754148
+"37067002904","Census Tract 29.04, Forsyth County, North Carolina",-80.1824101452137,36.2168849920979,"4565 Stafford Mill Rd, Germanton, NC 27019, USA",-80.1846513,36.2165867
 "37067002705","Census Tract 27.05, Forsyth County, North Carolina",-80.2906567568961,36.1453676646564,"1826 Crowne Park Dr, Winston-Salem, NC 27106, USA",-80.29088,36.1454499
 "37067003308","Census Tract 33.08, Forsyth County, North Carolina",-80.1291109357483,36.0932542548094,"1784 Willa Pl Dr, Kernersville, NC 27284, USA",-80.1289447,36.0932579
 "37067002806","Census Tract 28.06, Forsyth County, North Carolina",-80.2759949718313,36.1863738286346,"112 University Center Dr, Winston-Salem, NC 27105, USA",-80.2761029,36.1864113
