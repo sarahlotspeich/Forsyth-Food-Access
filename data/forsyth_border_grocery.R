@@ -44,27 +44,6 @@ grocery_data$types = sapply(X = 1:nrow(grocery_data),
                             FUN = function(x) paste(grocery_data$types[[x]], 
                                                     collapse = ", "))
 
-# Create indicator variables for different types 
-grocery_data = grocery_data |> 
-  dplyr::mutate(
-    grocery_or_supermarket = as.numeric(grepl(x = types, pattern = "grocery_or_supermarket")),
-    supermarket = as.numeric(grepl(x = types, pattern = "supermarket")),
-    food = as.numeric(grepl(x = types, pattern = "food")),
-    health = as.numeric(grepl(x = types, pattern = "health")),
-    store = as.numeric(grepl(x = types, pattern = "store")),
-    convenience_store = as.numeric(grepl(x = types, pattern = "convenience_store")),
-    gas_station = as.numeric(grepl(x = types, pattern = "gas_station")),
-    bakery = as.numeric(grepl(x = types, pattern = "bakery")),
-    bar = as.numeric(grepl(x = types, pattern = "bar")),
-    cafe = as.numeric(grepl(x = types, pattern = "cafe")),
-    car_repair = as.numeric(grepl(x = types, pattern = "car_repair")),
-    car_wash = as.numeric(grepl(x = types, pattern = "car_wash")),
-    liquor_store = as.numeric(grepl(x = types, pattern = "liquor_store")),
-    night_club = as.numeric(grepl(x = types, pattern = "night_club")),
-    pharmacy = as.numeric(grepl(x = types, pattern = "pharmacy")),
-    drugstore = as.numeric(grepl(x = types, pattern = "drugstore"))
-  )
-
 unique_grocery_data = grocery_data |> 
   dplyr::select(-GEOID, -types) |> 
   unique()
