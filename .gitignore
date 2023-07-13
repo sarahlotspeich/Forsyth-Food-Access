@@ -4,3 +4,9 @@
 data/.Rhistory
 
 data/set_api_keys.R
+
+reports/descriptive-statistics_files/libs/bootstrap/
+
+reports/descriptive-statistics_files/libs/clipboard/
+
+reports/descriptive-statistics_files/libs/quarto-html/

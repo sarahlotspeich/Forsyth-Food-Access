@@ -1,0 +1,66 @@
+---
+title: "Descriptive Statistics"
+format: 
+  html:
+    fig-width: 15
+    fig-height: 8
+editor: source
+---
+
+## Load Data
+
+```{r}
+# Load grocery stores (n = 855) for Forsyth & bordering counties
+grocery = read.csv(file = "https://raw.githubusercontent.com/sarahlotspeich/Forsyth-Food-Access/main/data/manual_review_forsyth_border_grocery.csv")
+
+# Load census tract (CT) centroids for Forsyth county (M = 95)
+neighborhoods = read.csv(file = "https://raw.githubusercontent.com/sarahlotspeich/Forsyth-Food-Access/main/data/forsyth_ct_centroids.csv")
+```
+
+## Comparing geometric and map-based centroids
+
+```{r}
+# Calculate straight-line distance between centroids
+dist_between = geosphere::distHaversine(p1 = neighborhoods[, c("lon1", "lat1")], 
+                                        p2 = neighborhoods[, c("lon2", "lat2")], 
+                                        r = 3958.8) ## radius of Earth (in miles)
+
+# Describe distance across all neighborhoods
+summary(dist_between)
+```
+
+## Processing grocery store data
+
+```{r}
+# Create labeled "type" variable and binary "healthy" variable
+types_healthy = c("main", "local", "specialty")
+grocery = grocery |> 
+  dplyr::mutate(type = factor(x = healthy_food,
+                              levels = c(1, 2, 4, 3, 0, 999),
+                              labels = c("main", "local", "specialty", "dollar", "convenience", "other")),
+                healthy = factor(x = type %in% types_healthy, 
+                                 levels = c(TRUE, FALSE), 
+                                 labels = c("yes", "no")))
+
+# Frequency of store types 
+table(grocery$type)
+
+# Exclude "other" category
+grocery_excl = grocery |> 
+  dplyr::filter(type != "other")
+
+# Sample sizes
+nrow(grocery) ## initial 
+nrow(grocery_excl) ## after excluding 
+
+# Frequency of healthy vs. not healthy foods after exclusion
+table(grocery_excl$healthy)
+table(grocery_excl$healthy) / sum(table(grocery_excl$healthy)) ## proportion
+
+# Frequency of store types after exclusion
+table(grocery_excl$type) 
+table(grocery_excl$type) / sum(table(grocery_excl$type)) ## proportion
+
+# Save labeled, excluded data as "final" 
+## grocery_excl --> saved as data/grocery_final.csv
+```
