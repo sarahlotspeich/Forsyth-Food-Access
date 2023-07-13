@@ -2707,8 +2707,38 @@ yes  no
        main       local   specialty      dollar convenience       other 
   0.3191214   0.1795866   0.0503876   0.1188630   0.3320413   0.0000000 </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save labeled, excluded data as &quot;final&quot; </span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="do">## grocery_excl --&gt; saved as data/grocery_final.csv</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Delete unused columns</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>grocery_excl <span class="ot">=</span> grocery_excl <span class="sc">|&gt;</span> </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">select</span>(<span class="sc">-</span>healthy_food, <span class="sc">-</span>business_status, <span class="sc">-</span>rating, <span class="sc">-</span>user_ratings_total)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(grocery_excl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                     place_id                                             name
+1 ChIJDVewbVnwUogRLkxScMpwjqw G OUTLET TOBACCO &amp; VAPE &amp; CBD &amp; Delta 8 &amp; Kratom
+2 ChIJuwMgsLGZU4gRBo8zNs0hjII                                             ALDI
+3 ChIJs1kStPUOU4gRPKRiG_kgfl8                                 Triangle Grocery
+4 ChIJfX7vMwhMU4gRF0u5SCcu_UQ                                    Country Store
+5 ChIJ5ZPLJcQOU4gRw7H_thLInNc                                      Family Mart
+6 ChIJx-aiZ3PzUYgRcB3hNuAo5gA                             Horton&#39;s Supermarket
+                                                formatted_address       lon
+1               100 E Murphy St, Madison, NC 27025, United States -79.95942
+2          101 N Talbert Blvd, Lexington, NC 27292, United States -80.24508
+3 1001 Hickory Chapel Rd # A, High Point, NC 27260, United States -79.96660
+4         1004 S Chatham Ave, Siler City, NC 27344, United States -79.45652
+5           1006 Leonard Ave, High Point, NC 27260, United States -79.99405
+6                  1009 S Main St, Galax, VA 24333, United States -80.91958
+       lat        type healthy
+1 36.38735 convenience      no
+2 35.81531        main     yes
+3 35.95456 convenience      no
+4 35.71168 convenience      no
+5 35.95880 convenience      no
+6 36.64444        main     yes</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save labeled, excluded data as &quot;final&quot; </span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="do">## grocery_excl --&gt; saved as data/grocery_final.csv</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>grocery_excl <span class="sc">|&gt;</span> </span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">write.csv</span>(<span class="st">&quot;~/Dropbox (Wake Forest University)/14 - GRANTS/CEES-DistanceToFood-May2023/Forsyth-Food-Access/data/grocery_final.csv&quot;</span>, <span class="at">row.names =</span> F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 

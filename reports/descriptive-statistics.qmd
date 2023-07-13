@@ -62,6 +62,10 @@ table(grocery_excl$healthy) / sum(table(grocery_excl$healthy)) ## proportion
 table(grocery_excl$type) 
 table(grocery_excl$type) / sum(table(grocery_excl$type)) ## proportion
 
-# Save labeled, excluded data as "final" 
+# Delete unused columns
+grocery_excl = grocery_excl |> 
+  dplyr::select(-healthy_food, -business_status, -rating, -user_ratings_total)
+
+# Save labeled, excluded data as 
 ## grocery_excl --> saved as data/grocery_final.csv
 ```
