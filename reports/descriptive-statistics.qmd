@@ -1,7 +1,8 @@
 ---
 title: "Descriptive Statistics"
-format: 
+format:
   html:
+    embed-resources: true
     fig-width: 15
     fig-height: 8
 editor: source
